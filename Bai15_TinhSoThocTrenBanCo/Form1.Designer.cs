@@ -49,8 +49,9 @@
             // txtO
             // 
             this.txtO.Location = new System.Drawing.Point(193, 94);
+            this.txtO.Multiline = true;
             this.txtO.Name = "txtO";
-            this.txtO.Size = new System.Drawing.Size(261, 27);
+            this.txtO.Size = new System.Drawing.Size(261, 52);
             this.txtO.TabIndex = 1;
             // 
             // txtTong
