@@ -33,13 +33,11 @@ namespace Bai15_TinhSoThocTrenBanCo
             for (int i = 0; i < o; i++)
             {
                 tongthoc = tongthoc + Math.Pow(2, i);
-                
-
             }
 
-            tongthoc = txtTong.Text.ToString();
+            txtTong.Text = tongthoc.ToString();
 
-            return 0;
+            
         }
     }
 }

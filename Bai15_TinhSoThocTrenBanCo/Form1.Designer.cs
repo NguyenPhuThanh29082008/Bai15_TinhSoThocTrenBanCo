@@ -50,21 +50,22 @@
             // 
             this.txtO.Location = new System.Drawing.Point(193, 94);
             this.txtO.Name = "txtO";
-            this.txtO.Size = new System.Drawing.Size(127, 27);
+            this.txtO.Size = new System.Drawing.Size(145, 27);
             this.txtO.TabIndex = 1;
             // 
             // txtTong
             // 
             this.txtTong.Location = new System.Drawing.Point(193, 168);
+            this.txtTong.Multiline = true;
             this.txtTong.Name = "txtTong";
-            this.txtTong.Size = new System.Drawing.Size(127, 27);
+            this.txtTong.Size = new System.Drawing.Size(145, 50);
             this.txtTong.TabIndex = 2;
             // 
             // btnTinh
             // 
             this.btnTinh.Location = new System.Drawing.Point(193, 256);
             this.btnTinh.Name = "btnTinh";
-            this.btnTinh.Size = new System.Drawing.Size(127, 47);
+            this.btnTinh.Size = new System.Drawing.Size(145, 47);
             this.btnTinh.TabIndex = 3;
             this.btnTinh.Text = "Tính";
             this.btnTinh.UseVisualStyleBackColor = true;
