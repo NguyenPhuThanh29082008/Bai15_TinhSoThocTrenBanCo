@@ -27,17 +27,20 @@ namespace Bai15_TinhSoThocTrenBanCo
             int o = Convert.ToInt32(txtO.Text);
             double tongthoc = 0;
 
-            while (o > 64 || o < 0);
-
-
-            for (int i = 0; i < o; i++)
+            if (o > 64)
             {
-                tongthoc = tongthoc + Math.Pow(2, i);
+                txtTong.Text = "Lỗi! trên bàn thờ chỉ có 64 ô thôi!";
+            }
+            else
+            {
+                while (o > 64 || o < 0) ;
+                for (int i = 0; i < o; i++)
+                {
+                    tongthoc = tongthoc + Math.Pow(2, i);
+                }
             }
 
             txtTong.Text = tongthoc.ToString();
-
-            
         }
     }
 }
