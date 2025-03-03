@@ -50,7 +50,7 @@
             // 
             this.txtO.Location = new System.Drawing.Point(193, 94);
             this.txtO.Name = "txtO";
-            this.txtO.Size = new System.Drawing.Size(145, 27);
+            this.txtO.Size = new System.Drawing.Size(261, 27);
             this.txtO.TabIndex = 1;
             // 
             // txtTong
@@ -58,7 +58,7 @@
             this.txtTong.Location = new System.Drawing.Point(193, 168);
             this.txtTong.Multiline = true;
             this.txtTong.Name = "txtTong";
-            this.txtTong.Size = new System.Drawing.Size(145, 50);
+            this.txtTong.Size = new System.Drawing.Size(261, 50);
             this.txtTong.TabIndex = 2;
             // 
             // btnTinh

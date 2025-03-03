@@ -29,7 +29,7 @@ namespace Bai15_TinhSoThocTrenBanCo
 
             if (o > 64)
             {
-                txtTong.Text = "Lỗi! trên bàn thờ chỉ có 64 ô thôi!";
+                txtO.Text = "Lỗi! trên bàn thờ chỉ có 0 đến 64 ô thôi!";
             }
             else
             {
